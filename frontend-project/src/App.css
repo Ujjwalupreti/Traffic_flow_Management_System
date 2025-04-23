@@ -1,0 +1,94 @@
+
+body{
+  background-color: whitesmoke;
+  /* background-repeat: no-repeat;
+  background-attachment: fixed; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+#MapBox{
+  display: flex;
+ justify-content: center;
+  /* border:1px solid black; */
+  height: 400px;
+  width:1000px;
+  margin-left: 10%;
+  border-radius: 5px;
+  border-color: rgb(156, 209, 223);
+  border-width: 9px;
+  border-style: outset;
+}
+#rBtn{
+  color: white;
+  border: 2px outset grey;
+  border-radius: 5px;
+  background-color: #198754;
+}
+#navBar{
+  border: 10px rgb(191, 170, 170) outset;
+  border-radius: 5px;
+}
+.pmrBtn{
+  color: white;
+  border: 2px outset grey;
+  border-radius: 5px;
+  background-color: #198754;
+}
+.pmrBtn:hover{
+  transform: translateY(-2px);
+}
+#rBtn:hover{
+  transform: translateY(-2px);
+}
+#lbl{
+  margin-right: 10px;
+}
+#dash-board{
+  scroll-margin-top:80px ;
+}
+#mapp{
+  width:1000px;
+}
